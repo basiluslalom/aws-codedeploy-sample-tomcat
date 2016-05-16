@@ -158,6 +158,11 @@
           <div class="panel-body">
             <img src="images/29b9733b2c0b4eceb44fc5defc1c0569.jpg" style="width:300px;height:300px;">
           </div>
+          <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
+	          <a class="col-sm-4"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a>
+	      </div> <% } %>
         </div>
       </div>
     </div>
@@ -293,6 +298,11 @@
           <div class="panel-body">
             <img src="images/meyTVIIfydsWLFJ5fP-v5MQ.jpg" style="width:300px;height:300px;">
           </div>
+          <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
+	          <a class="col-sm-4"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a>
+	      </div> <% } %>
         </div>
       </div>
       <div class="col-sm-4">
