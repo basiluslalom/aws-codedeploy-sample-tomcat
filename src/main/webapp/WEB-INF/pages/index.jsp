@@ -91,7 +91,47 @@
     <div class="page-header">
       <h1>Our Products</h1>
     </div>
-
+	<div class="grid">
+  		<div class="grid-item">
+  		 <div class="col-sm-4">
+	        <div class="panel panel-default">
+	          <div class="panel-heading">
+	            <h3 class="panel-title">Enjoy a Night on the Town</h3>
+	          </div>
+	          <div class="panel-body">
+	            Meeting your special someone? Make sure your dog looks the part!
+	            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
+	          </div>
+	        </div>
+	      </div>
+  		</div>
+  		<div class="grid-item">
+  			<div class="col-sm-4">
+		        <div class="panel panel-default">
+		          <div class="panel-heading">
+		            <h3 class="panel-title">Enjoy a Night on the Town</h3>
+		          </div>
+		          <div class="panel-body">
+		            Meeting your special someone? Make sure your dog looks the part!
+		            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
+		          </div>
+		        </div>
+		      </div>
+  		</div>
+  		<div class="grid-item">
+  			<div class="col-sm-4">
+		        <div class="panel panel-default">
+		          <div class="panel-heading">
+		            <h3 class="panel-title">Enjoy a Night on the Town</h3>
+		          </div>
+		          <div class="panel-body">
+		            Meeting your special someone? Make sure your dog looks the part!
+		            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
+		          </div>
+		        </div>
+		      </div>
+  		</div>
+    </div>
     <div class="row">
       <div class="col-sm-4">
         <div class="panel panel-default">
@@ -131,5 +171,7 @@
   </div>
   <script type="text/javascript" src="webjars/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
 </body>
 </html>
