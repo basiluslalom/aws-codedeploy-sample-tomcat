@@ -19,3 +19,8 @@ body {
 
 .grid-item { width: 25%; }
 .grid-item--width2 { width: 50%; }
+
+.cursive_title {
+	font-family: 'Great Vibes', cursive;
+	font-size: 25px;
+}

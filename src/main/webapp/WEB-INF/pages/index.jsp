@@ -24,6 +24,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='css/theme.css'>
 </head>
 <body role="document">
@@ -62,7 +63,7 @@
     </div>
   <% } %>
   <div class="container theme-showcase" role="main">
-    <% if (((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
+    <!-- <% if (((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
       <div class="alert alert-dismissible alert-warning">
         <button type="button" class="close" data-dismiss="alert">×</button>
         <h1>Grand Opening!</h1>
@@ -70,7 +71,7 @@
         <div class="row">
           <h2><center>Transform your dog from silly to stylish!</center></h2>
           <div class="col-sm-4">
-            <center><img src="images/sales-lobsterdog.png" style="width:287px;height:360px;"></center>
+            <center><img src="images/sales-lobsterdog.png" style="width:300px;height:360px;"></center>
           </div>
           <div class="col-sm-4" style="font-size: 300px">
             <center>&#8594;</center>
@@ -80,9 +81,9 @@
           </div>
         </div>
       </div>
-    <% } %>
+    <% } %>-- -->
     <div class="jumbotron">
-      <h1>Bespoke Suits for Dogs</h1>
+      <h1 class="cursive_title">Bespoke Suits for Dogs</h1>
       <p><i>Why can't your canine companion be classy too?</i></p>
        <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
        <!-- <p> Hello Jeremy </p>-->
@@ -91,79 +92,94 @@
     <div class="page-header">
       <h1>Our Products</h1>
     </div>
-	<div class="grid">
-  		<div class="grid-item">
-  		 <div class="col-sm-4">
-	        <div class="panel panel-default">
-	          <div class="panel-heading">
-	            <h3 class="panel-title">Enjoy a Night on the Town</h3>
-	          </div>
-	          <div class="panel-body">
-	            Meeting your special someone? Make sure your dog looks the part!
-	            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
-	          </div>
-	        </div>
-	      </div>
-  		</div>
-  		<div class="grid-item">
-  			<div class="col-sm-4">
-		        <div class="panel panel-default">
-		          <div class="panel-heading">
-		            <h3 class="panel-title">Enjoy a Night on the Town</h3>
-		          </div>
-		          <div class="panel-body">
-		            Meeting your special someone? Make sure your dog looks the part!
-		            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
-		          </div>
-		        </div>
-		      </div>
-  		</div>
-  		<div class="grid-item">
-  			<div class="col-sm-4">
-		        <div class="panel panel-default">
-		          <div class="panel-heading">
-		            <h3 class="panel-title">Enjoy a Night on the Town</h3>
-		          </div>
-		          <div class="panel-body">
-		            Meeting your special someone? Make sure your dog looks the part!
-		            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
-		          </div>
-		        </div>
-		      </div>
-  		</div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/casual-dog2.png" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/fancy-dog3.png" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/alterations-dog4.png" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Enjoy a Night on the Town</h3>
-          </div>
           <div class="panel-body">
-            Meeting your special someone? Make sure your dog looks the part!
-            <img src="images/casual-dog2.png" style="width:236px;height:295px;">
+            <img src="images/100_polyester_tuxedo_halloween_strong_style_color_b82220_large_dog_strong_formal_wear_costume_for_bulldog.jpg" style="width:300px;height:300px;">
           </div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Great for Family Photos</h3>
-          </div>
           <div class="panel-body">
-            With suits these fashionable, no one will question why your pet is there!
-            <img src="images/fancy-dog3.png" style="width:295px;height:433px;">
+            <img src="images/1pcs-large-dog-wedding-costume-big-dogs-bowknot-suits-jackets-clothes-pet-dog-fashion-coats-pets.jpg" style="width:300px;height:300px;">
           </div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Free alterations</h3>
-          </div>
           <div class="panel-body">
-            Don't let this happen to your pooch! 
-            Every purchase comes with free custom alterations to ensure a comfortable and snazzy fit.
-            <img src="images/alterations-dog4.png" style="width:287px;height:300px;">
+            <img src="images/29b9733b2c0b4eceb44fc5defc1c0569.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/41Zdv7E15fL._SY450_.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/7b74f2d08f6e0721b90131093941058e.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/big-day-dog-tuxedo-bow-tie-collar-2.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/dog-tuxedo_small1.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/dog-tuxedo-jacket-pattern.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/dog3.jpg" style="width:300px;height:300px;">
           </div>
         </div>
       </div>
@@ -171,7 +187,5 @@
   </div>
   <script type="text/javascript" src="webjars/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
-  <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
 </body>
 </html>
