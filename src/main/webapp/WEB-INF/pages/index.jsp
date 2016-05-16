@@ -85,7 +85,7 @@
       <h1>Bespoke Suits for Dogs</h1>
       <p><i>Why can't your canine companion be classy too?</i></p>
        <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
-       <p> Hello Jeremy </p>
+       <!-- <p> Hello Jeremy </p>-->
        <% } %>
     </div>
     <div class="page-header">
