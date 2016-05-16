@@ -25,6 +25,7 @@
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel='stylesheet' href='css/theme.css'>
 </head>
 <body role="document">
@@ -82,15 +83,12 @@
         </div>
       </div>
     <% } %>-- -->
-    <div class="jumbotron">
-      <h1 class="cursive_title">Bespoke Suits for Dogs</h1>
-      <p><i>Why can't your canine companion be classy too?</i></p>
+    <div>
+      <h1 align="center" class="cursive_title">Bespoke Suits for Dogs</h1>
+      <p align="center" class="tagline"><i>Man's best friend in mans's best threads</i></p>
        <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %>
        <!-- <p> Hello Jeremy </p>-->
        <% } %>
-    </div>
-    <div class="page-header">
-      <h1>Our Products</h1>
     </div>
     <div class="row">
       <div class="col-sm-4">
@@ -98,6 +96,11 @@
           <div class="panel-body">
             <img src="images/casual-dog2.png" style="width:300px;height:300px;">
           </div>
+          <div class="panel-heading row">
+	          <a class="col-sm-4"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	          <a class="col-sm-4"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	      </div>
         </div>
       </div>
       <div class="col-sm-4">
@@ -180,6 +183,98 @@
         <div class="panel panel-default">
           <div class="panel-body">
             <img src="images/dog3.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/f60806142c3027243baf40f3a0312188.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/Factory-direct-wholesale-pet-clothes-pet-font-b-dog-b-font-four-legged-font-b-trousers.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/fancy-dog3.png" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/mensweardog5.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/meyTVIIfydsWLFJ5fP-v5MQ.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/ngbbs4a9b7cbf8f18a.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/pet-dog-suit122.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/Pinstripes-Little-Pet-Planet1.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/sales-lobsterdog.png" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/Shiba-2.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/suit-dog-work-hard.jpg" style="width:300px;height:300px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="images/classy-dog1.png" style="width:300px;height:300px;">
           </div>
         </div>
       </div>

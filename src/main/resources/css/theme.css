@@ -22,5 +22,7 @@ body {
 
 .cursive_title {
 	font-family: 'Great Vibes', cursive;
-	font-size: 25px;
+	font-size: 80px;
+	margin: auto;
+	width: 100%;
 }
