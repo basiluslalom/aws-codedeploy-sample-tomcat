@@ -96,11 +96,11 @@
           <div class="panel-body">
             <img src="images/casual-dog2.png" style="width:300px;height:300px;">
           </div>
-          <!-- <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
+           <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
 	          <a class="col-sm-4"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
 	          <a class="col-sm-4"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
 	          <a class="col-sm-4"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a>
-	      </div> <% } %>-->
+	      </div> <% } %>
         </div>
       </div>
       <div class="col-sm-4">
@@ -386,11 +386,11 @@
           <div class="panel-body">
             <img src="images/classy-dog1.png" style="width:300px;height:300px;">
           </div>
-          <!-- <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
+           <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Production")) { %><div class="row social">
 	          <a class="col-sm-4"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
 	          <a class="col-sm-4"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
 	          <a class="col-sm-4"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a>
-	      </div> <% } %>-->
+	      </div> <% } %>
         </div>
       </div>
     </div>
